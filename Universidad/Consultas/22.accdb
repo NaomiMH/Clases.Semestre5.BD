@@ -1,0 +1,7 @@
+Obtenga la relación de materias de un alumno, dado su número de matrícula, reportando lo siguiente:
+	- Matrícula y nombre completo del alumno.
+	- Carrera y semestre que cursa.
+	- Nombre del departamento.
+	- Clave completa y nombre de la materia.
+	- Nombre completo del profesor.
+	- Horario y salón.
