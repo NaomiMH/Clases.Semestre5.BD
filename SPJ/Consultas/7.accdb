@@ -2,4 +2,4 @@ Get all supplier-number, part-number, job-number triples such that the indicated
 
 SELECT DISTINCT sno, s.city, pno, p.city, jno, j.city
 FROM j,s,p
-WHERE NOT s.city = j.city AND NOT j.city = p.city AND NOT s.city = p.city;
+WHERE NOT(s.city = j.city AND j.city = p.city);
