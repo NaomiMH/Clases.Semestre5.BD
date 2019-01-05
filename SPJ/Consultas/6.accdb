@@ -1,1 +1,5 @@
 Get all supplier-number, part-number, job-number triples such that the indicated supplier, part, job are in the same city.
+
+SELECT sno, s.city, pno, p.city, jno, j.city
+FROM j,s,p
+WHERE s.city = j.city AND j.city = p.city;
