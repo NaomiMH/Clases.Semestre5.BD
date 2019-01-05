@@ -1,1 +1,5 @@
 Get all the data on all jobs in London.
+
+SELECT *
+FROM J
+WHERE city = 'London';
