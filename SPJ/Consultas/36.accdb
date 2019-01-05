@@ -1,0 +1,1 @@
+Show the results of the following SELECT: SELECT P.CPLOR FROM P UNION SELECT P.COLOR FROM P;
