@@ -1,1 +1,5 @@
 Get part numbers for parts supplied by a supplier in London to a job in Paris.
+
+SELECT DISTINCT pno, s.sno, s.city, j.city
+FROM s,spj,j
+WHERE s.city = 'London' AND j.city = 'Paris';
