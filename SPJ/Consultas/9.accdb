@@ -1,1 +1,5 @@
 Get part number for parts supplied (SPJ table) by a supplier in London.
+
+SELECT DISTINCT pno, s.sno, city
+FROM s,spj
+WHERE city = 'London';
