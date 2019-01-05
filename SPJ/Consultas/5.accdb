@@ -1,1 +1,4 @@
 Get a list of all part-color, part-city combinations, with duplicate (color, city) eliminated.
+
+SELECT DISTINCT color, city
+FROM p;
