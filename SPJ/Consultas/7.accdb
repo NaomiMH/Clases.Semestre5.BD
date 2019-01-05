@@ -1,0 +1,1 @@
+Get all supplier-number, part-number, job-number triples such that the indicated supplier, part, job are not in the same city.
